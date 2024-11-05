@@ -10,5 +10,9 @@ class Employee(Person):
         self.salary=salary
         self.post=post
         Person.__init__(self,name,id)
+    def display2(self):
+        print(self.salary)
+        print(self.post)
 a=Employee('Rahul',886012,200000,'Intern')
 a.display()
+a.display2()
